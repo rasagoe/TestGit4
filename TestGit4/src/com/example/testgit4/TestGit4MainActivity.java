@@ -1,11 +1,11 @@
 package com.example.testgit4;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
 
 public class TestGit4MainActivity extends Activity {
-
+	private static int testInt = 0;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
