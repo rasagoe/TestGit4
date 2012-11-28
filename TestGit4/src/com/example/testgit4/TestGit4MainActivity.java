@@ -10,6 +10,7 @@ public class TestGit4MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_test_git4_main);
+		setContentView(R.layout.activity_test_git4_main);
 	}
 
 	@Override
