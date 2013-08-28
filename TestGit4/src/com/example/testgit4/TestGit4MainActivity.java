@@ -1,7 +1,7 @@
 package com.example.testgit4;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
 
 public class TestGit4MainActivity extends Activity {
@@ -17,6 +17,12 @@ public class TestGit4MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_test_git4_main, menu);
 		return true;
+	}
+
+	@Override
+	protected void onDestroy() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onDestroy();
 	}
 
 }
