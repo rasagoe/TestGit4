@@ -25,4 +25,17 @@ public class TestGit4MainActivity extends Activity {
 		super.onDestroy();
 	}
 
+	@Override
+	protected void onResume() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onResume();
+	}
+
+	@Override
+	protected void onPause() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onPause();
+	}
+
+
 }
